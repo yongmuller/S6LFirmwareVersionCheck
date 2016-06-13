@@ -28,7 +28,7 @@ typedef struct         // Values stored in big endian
 	unsigned char    version_revision; // 0 for Carbon Rev and 1 for Zircon Rev
 	unsigned char    flags;
 	unsigned long    checksum;        // Checksum of image (without this addition)
-} 
+}
 IMAGE_IDENT; // Defining the above structure as IMAGE_IDENT
 unsigned char buffer[BUFFER_SIZE]; // Setting the buffer size
 
