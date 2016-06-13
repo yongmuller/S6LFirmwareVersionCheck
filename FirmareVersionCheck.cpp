@@ -9,8 +9,8 @@
 #include <string>
 using namespace std;
 
-#define BUFFER_SIZE 40									// we only need 40 bytes
-#define mBUFFER_SIZE 40									// Module FW has different offset for Version string
+#define BUFFER_SIZE 40	// we only need 40 bytes
+#define mBUFFER_SIZE 40	// Module FW has different offset for Version string
 #define BIN_FOLDER "..\\"
 #define CARBON_IMG_NAME		(BIN_FOLDER "FW/BonanzaUnitImage.bin")		// Default name for the Carbon image
 #define ZIRCON_IMG_NAME		(BIN_FOLDER "FW/BonanzaZirconUnitImage.bin")// Default name for the Zircon image
